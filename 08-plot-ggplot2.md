@@ -349,7 +349,8 @@ a specific variable.
 
 ```r
 ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp)) +
- geom_point(size=3, color="orange") + scale_x_log10() +
+ geom_point(size=3, color="firebrick") + 
+ scale_x_log10() +
  geom_smooth(method="lm", size=1.5)
 ```
 
@@ -384,7 +385,8 @@ is placed inside the `aes()` call modifies a point's color based on its continen
 
 ```r
 ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp, color = continent)) +
- geom_point(size=3, shape=17) + scale_x_log10() +
+ geom_point(size=3, shape=17) + 
+ scale_x_log10() +
  geom_smooth(method="lm", size=1.5)
 ```
 
