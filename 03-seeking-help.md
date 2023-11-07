@@ -181,8 +181,8 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 loaded via a namespace (and not attached):
-[1] compiler_4.3.1 tools_4.3.1    yaml_2.3.7     knitr_1.42     xfun_0.39     
-[6] renv_1.0.2     evaluate_0.20 
+[1] compiler_4.3.1 tools_4.3.1    yaml_2.3.7     knitr_1.45     xfun_0.41     
+[6] renv_1.0.3     evaluate_0.23 
 ```
 
 Will print out your current version of R, as well as any packages you
